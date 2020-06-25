@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css">
+        <title>Podcasts</title>
+        <script>
+            function epsodios(divEp) {
+                document.getElementById(divEp).style.display = "block";
+            }
+        </script>
+    </head>
+    <body>
+        <header>Header</header>
+        <div class="podcasts">
+        Podcasts:
+            <ul>
+                <li onclick="epsodios('nerdcast')">Nerdcast</li>
+                <li onclick="epsodios('anticast')">Anticast</li>
+                <li>Xadrez Verbal</li>
+            </ul>
+        </div>
+        <div class="episodios">
+            <div class="nerdcast">
+                Episódios:
+                <ul>
+                    <li>Nerdcast: ep.1</li>
+                    <li>Nerdcast: ep.2</li>
+                    <li>Nerdcast: ep.3</li>
+                </ul>
+            </div>
+            <div class="anticast">
+                Episódios:
+                <ul>
+                    <li>Anticast: ep.1</li>
+                    <li>Anticast: ep.2</li>
+                    <li>Anticast: ep.3</li>
+                </ul>
+            </div>
+        </div>
+        <footer>Footer</footer>
+    </body>
+</html>
